@@ -2,7 +2,7 @@ const btnTranslator = document.querySelector("#btn-translate");
 const txtInput = document.querySelector("#txt-input");
 const outputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/klingon.json";
+var serverURL = "https://api.funtranslations.com/translate/pirate.json";
 
 getTranslationURL = (input) => {
     return serverURL + "?" + "text=" + input
